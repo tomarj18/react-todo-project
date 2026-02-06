@@ -24,6 +24,7 @@ const PORT = process.env.PORT || 3001;
 // CORS Configuration
 // Allows requests from Vercel frontend and local development
 const allowedOrigins = [
+  "https://react-todo-project-lemon.vercel.app",  
   "https://react-todo-project-git-main-shanieces-projects.vercel.app",
   "https://react-todo-project-mw870h4us-shanieces-projects.vercel.app",
   "http://localhost:5173",
